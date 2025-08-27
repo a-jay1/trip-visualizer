@@ -1,0 +1,78 @@
+{
+  "formConfig": {
+    "title": "Plan Your Trip",
+    "fields": [
+      {
+        "id": "startingPoint",
+        "label": "Starting Point",
+        "type": "input",
+        "placeholder": "Enter your starting location",
+        "icon": "location",
+        "validation": {
+          "required": true,
+          "minLength": 2
+        }
+      },
+      {
+        "id": "destinations",
+        "label": "Destinations",
+        "type": "destination-list",
+        "placeholder": "Enter destination",
+        "icon": "destination",
+        "addButtonText": "Add another destination",
+        "validation": {
+          "required": true,
+          "minItems": 1
+        }
+      },
+      {
+        "id": "numberOfPeople",
+        "label": "Number of People",
+        "type": "dropdown",
+        "icon": "people",
+        "defaultValue": "1 Person",
+        "options": [
+          { "value": "1", "label": "1 Person" },
+          { "value": "2", "label": "2 People" },
+          { "value": "3", "label": "3 People" },
+          { "value": "4", "label": "4 People" },
+          { "value": "5", "label": "5 People" },
+          { "value": "6+", "label": "6+ People" }
+        ],
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "id": "numberOfDays",
+        "label": "Number of Days",
+        "type": "dropdown",
+        "icon": "calendar",
+        "defaultValue": "4 Days",
+        "options": [
+          { "value": "1", "label": "1 Day" },
+          { "value": "2", "label": "2 Days" },
+          { "value": "3", "label": "3 Days" },
+          { "value": "4", "label": "4 Days" },
+          { "value": "5", "label": "5 Days" },
+          { "value": "7", "label": "1 Week" },
+          { "value": "14", "label": "2 Weeks" },
+          { "value": "30", "label": "1 Month" }
+        ],
+        "validation": {
+          "required": true
+        }
+      }
+    ],
+    "submitButton": {
+      "text": "Plan My Trip",
+      "icon": "route",
+      "type": "primary"
+    },
+    "premiumFeatures": {
+      "title": "Premium Features",
+      "description": "Unlock advanced planning tools",
+      "icon": "crown"
+    }
+  }
+}

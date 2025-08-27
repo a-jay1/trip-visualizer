@@ -1,0 +1,88 @@
+{
+    "source": {
+        "name": "Chennai",
+        "image": "https://images.unsplash.com/photo-1595658658481-d53d3f999875?w=400&h=300&fit=crop",
+        "lat": 13.0827,
+        "lng": 80.2707,
+        "description": "Capital city of Tamil Nadu, known for its beaches and cultural heritage"
+    },
+    "destinations": [
+        {
+            "day": 1,
+            "name": "Pondicherry",
+            "image": "https://images.unsplash.com/photo-1588595148369-5b5f4d7a0b56?w=400&h=300&fit=crop",
+            "lat": 11.9416,
+            "lng": 79.8083,
+            "description": "French colonial town with beautiful beaches and spiritual centers",
+            "places": [
+                {
+                    "name": "Auroville",
+                    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=300&h=200&fit=crop",
+                    "lat": 12.0056,
+                    "lng": 79.8103,
+                    "description": "International community dedicated to human unity"
+                },
+                {
+                    "name": "Paradise Beach",
+                    "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=300&h=200&fit=crop",
+                    "lat": 11.9361,
+                    "lng": 79.8378,
+                    "description": "Pristine beach accessible by boat"
+                },
+                {
+                    "name": "Promenade Beach",
+                    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=300&h=200&fit=crop",
+                    "lat": 11.9349,
+                    "lng": 79.8378,
+                    "description": "Popular beach promenade in the heart of the city"
+                },
+                {
+                    "name": "Sri Aurobindo Ashram",
+                    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=300&h=200&fit=crop",
+                    "lat": 11.9349,
+                    "lng": 79.8308,
+                    "description": "Spiritual center founded by Sri Aurobindo"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "name": "Madurai",
+            "image": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=400&h=300&fit=crop",
+            "lat": 9.9252,
+            "lng": 78.1198,
+            "description": "Temple city famous for Meenakshi Amman Temple",
+            "places": [
+                {
+                    "name": "Meenakshi Amman Temple",
+                    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop",
+                    "lat": 9.9195,
+                    "lng": 78.1193,
+                    "description": "Ancient Hindu temple dedicated to Goddess Meenakshi"
+                },
+                {
+                    "name": "Thirumalai Nayakkar Palace",
+                    "image": "https://images.unsplash.com/photo-1609920658906-8223bd289001?w=300&h=200&fit=crop",
+                    "lat": 9.9186,
+                    "lng": 78.1208,
+                    "description": "17th-century palace showcasing Dravidian architecture"
+                },
+                {
+                    "name": "Gandhi Museum",
+                    "image": "https://images.unsplash.com/photo-1553603227-2358aabe821e?w=300&h=200&fit=crop",
+                    "lat": 9.9311,
+                    "lng": 78.1198,
+                    "description": "Museum dedicated to Mahatma Gandhi"
+                },
+                {
+                    "name": "Alagar Kovil",
+                    "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?w=300&h=200&fit=crop",
+                    "lat": 9.9986,
+                    "lng": 78.0908,
+                    "description": "Temple dedicated to Lord Vishnu in the hills"
+                }
+            ]
+        }
+    ]
+}
+
